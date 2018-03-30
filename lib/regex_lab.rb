@@ -13,10 +13,10 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  #My initial bad answer.  Tried to handle double quotes (ex. He said "yadda yadda".) but 
+  #My initial bad answer.  Tried to handle double quotes (ex. He said "yadda yadda".) but
   # that is actually really complicated
   # scan will return array of matches.  So we add those all up to make sure there is no extra
-  # stuff in text that is outside of the pattern.  Must be a better way!   
+  # stuff in text that is outside of the pattern.  Must be a better way!
   #count = 0;
   #text.scan(/^[A-Z]+[^.!?]*[.!?"]+/) { | sentence | count += sentence.length}
   #count == text.length ? true : false
