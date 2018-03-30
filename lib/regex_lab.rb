@@ -29,4 +29,3 @@ def valid_phone_number?(phone)
   phone.match(/(\d\s)?\(?\d{3}\)?[\s-]?\d{3}[\s-]?\d{4}\z/) == nil ? false : true
 end
 
-first_word_capitalized_and_ends_with_punctuation?("Did you hear about the guy whose whole left side was cut off? He's all right now")
